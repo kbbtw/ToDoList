@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+
+
+@media only screen and (max-width:600px){
+
+body{
+    background: linear-gradient(300deg, rgb(255, 211, 255),rgb(255, 137, 255),violet,lightblue,skyblue, rgb(197, 248, 255), rgb(129, 173, 255) );
+    background-repeat: no-repeat;
+    font-family: 'Heebo', sans-serif;
+    height: fit-content;
+}
+
+#title{
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: grey 8px 5px 5px, rgb(253, 226, 255) 2px 1px 0px;
+}
+
+#enterField{
+    height: 50px;
+    width: 332px;
+    border-radius: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 20px;
+    border: none;
+    box-shadow:  1px 1px 10px
+}
+
+
+#enterBtn{
+    width: 100px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 35px;
+    margin-left: 130px;
+    margin-top: 10px;
+    border: 1px solid black;
+    box-shadow: grey 1px 2px 20px;
+    
+}
+
+#enterBtn:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+
+
+hr{
+    width: 200px;
+    height: 1px;
+    background-color: black;
+    
+}
+
+
+#bigContainer{
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 800px;
+    box-shadow: grey 1px 2px 20px;
+    margin-bottom: 100px;
+    overflow: scroll;
+    
+}
+
+ul li{
+    cursor: pointer;
+    list-style:none;
+    padding-right: 80px;
+    padding-top: 10px;
+}
+
+li{
+    overflow-wrap: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.delBtn{
+    overflow-wrap: normal;
+    height: 22px;
+    width: 22px;
+    border-radius: 30px;
+    border: 0.5px black solid;
+    margin: 20px;
+    padding: 0;
+    font-size: 20px;
+    display: inline;
+
+}
+
+.delBtn:hover{
+    background-color: gainsboro;
+}
+
+.newhr{
+    width: 100px;
+    height: 0.5px;
+    background-color: gainsboro;
+    
+}
+}
